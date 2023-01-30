@@ -6,6 +6,10 @@ This project is an example implementation of a
 [ToolForge](https://app.toolforge.io/) tool in Python. It uses the
 [toolforge](https://github.com/toolforgeio/toolforge4py) library for QOL.
 
+This "Hello Toolforge" template is released FREE TO USE under the Apache 2.0
+License for building ToolForge tools. Tool developers may choose their own
+licenses for their tools, including closed source.
+
 ## Building
 
 Simply running the following command will generate the required Docker image:
