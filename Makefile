@@ -1,5 +1,7 @@
-build: 
-	docker build -t docker.toolforge.io/toolforgeio/hello-toolforge .
+IMAGE := docker.toolforge.io/toolforgeio/hello-toolforge
 
-release:
-	docker push docker.toolforge.io/toolforgeio/hello-toolforge
+build: 
+	docker build -t ${IMAGE} .
+
+release: build
+	docker push ${IMAGE}
